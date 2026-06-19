@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOSPro.be | 24/7 Spoedelektricien & Spoedloodgieter in België</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  body { font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  .brand { color: #FF4500; }
+  .bg-brand { background-color: #FF4500; }
+  .bg-brand-dark { background-color: #CC3700; }
+  .hover-brand:hover { color: #FF4500; }
+  @keyframes pulse-em { 0%,100%{box-shadow:0 0 0 0 rgba(255,69,0,0.4)} 50%{box-shadow:0 0 0 6px rgba(255,69,0,0)} }
+  .pulse-emergency { animation: pulse-em 2s infinite; }
+</style>
+</head>
+<body class="min-h-screen bg-white text-slate-900">
+
+<!-- HEADER -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="#" class="flex items-center gap-2">
+        <div class="w-10 h-10 bg-brand rounded-md flex items-center justify-center">
+          <i class="fa-solid fa-bolt text-white text-lg"></i>
+        </div>
+        <span class="font-bold text-xl text-slate-900">SOSPro<span class="brand">.be</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#diensten" class="text-slate-600 hover-brand font-medium">Elektricien</a>
+        <a href="#diensten" class="text-slate-600 hover-brand font-medium">Loodgieter</a>
+        <a href="#" class="text-slate-600 hover-brand font-medium">Over ons</a>
+      </nav>
+      <div class="hidden md:flex items-center gap-4">
+        <a href="#" class="text-slate-600 hover-brand font-medium">Word vakman</a>
+        <a href="#" class="border border-slate-300 rounded-md px-4 py-2 text-slate-700 hover:bg-slate-50 font-medium">Inloggen</a>
+        <a href="tel:+3238084747" class="flex items-center gap-2 bg-brand text-white px-4 py-2 rounded-md font-medium hover:bg-brand-dark transition-colors">
+          <i class="fa-solid fa-phone text-sm"></i>
+          <span>03 808 47 47</span>
+        </a>
+        <div class="flex items-center border-l pl-4 ml-2 text-sm gap-1">
+          <button class="brand font-medium px-2 py-1 rounded hover:bg-orange-50">NL</button>
+          <span class="text-slate-300">|</span>
+          <button class="text-slate-400 hover:text-slate-600 px-2 py-1 rounded hover:bg-slate-50">FR</button>
+        </div>
+      </div>
+      <button class="md:hidden p-2"><i class="fa-solid fa-bars text-xl"></i></button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="inline-block bg-brand text-white mb-6 px-4 py-1.5 text-sm font-medium rounded-full pulse-emergency">24/7 Spoed beschikbaar in België</span>
+        <h1 class="font-black text-4xl sm:text-5xl lg:text-6xl text-slate-900 mb-4 leading-tight">
+          24/7 Spoed <span class="brand">Elektricien & Loodgieter</span>
+        </h1>
+        <p class="text-xl text-slate-700 font-medium mb-2">Heel België — direct hulp nodig?</p>
+        <p class="text-lg text-slate-600 mb-8 max-w-lg">
+          Binnen 45 minuten ter plaatse (waar mogelijk). Direct hulp bij stroomstoring, kortsluiting, waterlek of verstopping. Vaste prijs, gescreende vakmannen.
+        </p>
+
+        <!-- Search box -->
+        <div class="mb-6">
+          <div class="flex flex-col sm:flex-row gap-3">
+            <input type="text" placeholder="Wat is je probleem? (bijv. lekkage, kortsluiting)"
+              class="flex-1 h-14 px-4 text-base bg-white border border-slate-200 rounded-md focus:outline-none focus:ring-2 focus:ring-brand"/>
+            <button class="h-14 px-8 bg-brand hover:bg-brand-dark text-white font-semibold text-base rounded-md transition-colors">
+              Zoek vakman
+            </button>
+          </div>
+          <label class="flex items-center gap-3 mt-4 cursor-pointer">
+            <div class="relative w-12 h-6 rounded-full bg-slate-200">
+              <div class="absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full shadow"></div>
+            </div>
+            <span class="text-slate-700 font-medium">Spoed - direct hulp nodig</span>
+          </label>
+        </div>
+
+        <!-- Popular searches -->
+        <div class="mb-8">
+          <p class="text-sm text-slate-500 mb-2">Populaire zoekopdrachten:</p>
+          <div class="flex flex-wrap gap-2">
+            <button class="px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-600 hover:border-brand hover-brand transition-colors">Lekkage</button>
+            <button class="px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-600 hover:border-brand hover-brand transition-colors">WC verstopt</button>
+            <button class="px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-600 hover:border-brand hover-brand transition-colors">Stroomstoring</button>
+            <button class="px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-600 hover:border-brand hover-brand transition-colors">Riool verstopt</button>
+            <button class="px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-600 hover:border-brand hover-brand transition-colors">Kortsluiting</button>
+            <button class="px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-600 hover:border-brand hover-brand transition-colors">Differentieel</button>
+            <button class="px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-600 hover:border-brand hover-brand transition-colors">Boiler defect</button>
+            <button class="px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-600 hover:border-brand hover-brand transition-colors">Zekering gesprongen</button>
+          </div>
+        </div>
+
+        <!-- Trust badges -->
+        <div class="flex flex-wrap gap-6">
+          <div class="flex items-center gap-2 text-slate-600">
+            <i class="fa-regular fa-clock brand"></i>
+            <span class="text-sm font-medium">Snel geholpen</span>
+          </div>
+          <div class="flex items-center gap-2 text-slate-600">
+            <i class="fa-solid fa-star brand"></i>
+            <span class="text-sm font-medium">4,8/5 beoordeling</span>
+          </div>
+          <div class="flex items-center gap-2 text-slate-600">
+            <i class="fa-solid fa-shield brand"></i>
+            <span class="text-sm font-medium">Tevredenheidsgarantie</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero image (NL-stijl: donkere kaart, object-contain) -->
+      <div class="relative hidden lg:block">
+        <div class="rounded-2xl shadow-2xl w-full h-[500px] bg-slate-900 flex items-center justify-center">
+          <div class="text-center text-white/80 px-8">
+            <div class="text-6xl mb-4">⚡🔧</div>
+            <p class="text-lg font-semibold">Vervang met eigen vakman-foto</p>
+            <p class="text-sm text-white/50 mt-1">(object-contain, zoals NL-versie)</p>
+          </div>
+        </div>
+        <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+              <i class="fa-solid fa-circle-check text-green-600 text-xl"></i>
+            </div>
+            <div>
+              <p class="text-sm text-slate-500">Gemiddelde reactietijd</p>
+              <p class="font-bold text-lg text-slate-900">20 minuten</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile response time card -->
+      <div class="lg:hidden mt-8">
+        <div class="bg-white p-4 rounded-xl shadow-lg border border-slate-200 flex items-center justify-center gap-4">
+          <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+            <i class="fa-solid fa-circle-check text-green-600 text-xl"></i>
+          </div>
+          <div>
+            <p class="text-sm text-slate-500">Gemiddelde reactietijd</p>
+            <p class="font-bold text-lg text-slate-900">20 minuten</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES - Bento-stijl met afbeelding + prijs (zoals NL) -->
+<section id="diensten" class="py-20 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-left mb-12">
+      <h2 class="font-bold text-3xl sm:text-4xl text-slate-900 mb-4">Onze diensten</h2>
+      <p class="text-slate-600 text-lg max-w-2xl">Kies een vakman en boek direct. Spoed en reguliere klussen mogelijk, heel België.</p>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
+      <!-- Elektricien card -->
+      <div class="border border-slate-200 hover:border-brand cursor-pointer overflow-hidden rounded-xl transition-colors">
+        <div class="relative h-48 overflow-hidden bg-gradient-to-br from-slate-800 to-black flex items-center justify-center">
+          <i class="fa-solid fa-bolt text-5xl text-white/70"></i>
+          <div class="absolute top-4 left-4">
+            <span class="bg-white text-slate-900 font-medium text-sm px-3 py-1 rounded-full flex items-center gap-1 w-fit">
+              <i class="fa-solid fa-bolt text-xs"></i> Elektricien
+            </span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-bold text-xl text-slate-900 mb-2">Elektricien</h3>
+          <p class="text-slate-600 mb-4 text-sm">Stroomstoring of kortsluiting? Onze elektriciens in België staan 24/7 paraat.</p>
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <p class="text-sm text-slate-500">Vanaf</p>
+              <p class="font-bold text-2xl text-slate-900">€69,-</p>
+            </div>
+            <div class="text-right">
+              <p class="text-sm brand font-medium">Spoed</p>
+              <p class="font-bold text-lg brand">€119,-</p>
+            </div>
+          </div>
+          <button class="w-full bg-slate-900 hover:bg-slate-800 text-white py-2.5 rounded-md font-medium flex items-center justify-center gap-2">
+            Boek nu <i class="fa-solid fa-arrow-right text-sm"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Loodgieter card -->
+      <div class="border border-slate-200 hover:border-brand cursor-pointer overflow-hidden rounded-xl transition-colors">
+        <div class="relative h-48 overflow-hidden bg-gradient-to-br from-slate-800 to-black flex items-center justify-center">
+          <i class="fa-solid fa-droplet text-5xl text-white/70"></i>
+          <div class="absolute top-4 left-4">
+            <span class="bg-white text-slate-900 font-medium text-sm px-3 py-1 rounded-full flex items-center gap-1 w-fit">
+              <i class="fa-solid fa-droplet text-xs"></i> Loodgieter
+            </span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-bold text-xl text-slate-900 mb-2">Loodgieter</h3>
+          <p class="text-slate-600 mb-4 text-sm">24/7 spoed loodgieter in België. Lekkages, verstoppingen en sanitair snel opgelost.</p>
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <p class="text-sm text-slate-500">Vanaf</p>
+              <p class="font-bold text-2xl text-slate-900">€69,-</p>
+            </div>
+            <div class="text-right">
+              <p class="text-sm brand font-medium">Spoed</p>
+              <p class="font-bold text-lg brand">€119,-</p>
+            </div>
+          </div>
+          <button class="w-full bg-slate-900 hover:bg-slate-800 text-white py-2.5 rounded-md font-medium flex items-center justify-center gap-2">
+            Boek nu <i class="fa-solid fa-arrow-right text-sm"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ZO WERKT HET -->
+<section class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <h2 class="font-bold text-3xl sm:text-4xl text-slate-900 mb-4">Zo werkt het</h2>
+      <p class="text-slate-600 text-lg">Makkelijk boeken, snel een afspraak en veilig achteraf betalen!</p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+      <div class="text-center">
+        <div class="w-12 h-12 md:w-16 md:h-16 bg-brand text-white rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4 font-bold text-xl md:text-2xl">1</div>
+        <h3 class="font-bold text-base md:text-lg text-slate-900 mb-1 md:mb-2">Kies je klus</h3>
+        <p class="text-slate-600 text-xs md:text-sm">Selecteer de dienst en beschrijf je probleem</p>
+      </div>
+      <div class="text-center">
+        <div class="w-12 h-12 md:w-16 md:h-16 bg-brand text-white rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4 font-bold text-xl md:text-2xl">2</div>
+        <h3 class="font-bold text-base md:text-lg text-slate-900 mb-1 md:mb-2">Boek direct</h3>
+        <p class="text-slate-600 text-xs md:text-sm">Kies een datum en tijd die jou uitkomt</p>
+      </div>
+      <div class="text-center">
+        <div class="w-12 h-12 md:w-16 md:h-16 bg-brand text-white rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4 font-bold text-xl md:text-2xl">3</div>
+        <h3 class="font-bold text-base md:text-lg text-slate-900 mb-1 md:mb-2">Vakman komt</h3>
+        <p class="text-slate-600 text-xs md:text-sm">Een gescreende vakman komt op afspraak</p>
+      </div>
+      <div class="text-center">
+        <div class="w-12 h-12 md:w-16 md:h-16 bg-brand text-white rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4 font-bold text-xl md:text-2xl">4</div>
+        <h3 class="font-bold text-base md:text-lg text-slate-900 mb-1 md:mb-2">Betaal achteraf</h3>
+        <p class="text-slate-600 text-xs md:text-sm">Na de klus betaal je veilig via ons platform</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="py-16 px-4 sm:px-6 lg:px-8 bg-slate-900">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div><p class="font-black text-4xl text-white">12.000+</p><p class="text-slate-400 mt-2">Klussen</p></div>
+      <div><p class="font-black text-4xl text-white">150+</p><p class="text-slate-400 mt-2">Vakmannen</p></div>
+      <div><p class="font-black text-4xl text-white">3.200+</p><p class="text-slate-400 mt-2">Reviews</p></div>
+      <div><p class="font-black text-4xl brand">4,8/5</p><p class="text-slate-400 mt-2">Beoordeling</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="font-bold text-3xl sm:text-4xl text-slate-900 mb-4">Wat zeggen tevreden klanten?</h2>
+      <p class="text-slate-600 text-lg">Slimme huiseigenaren in België kiezen voor SOSPro</p>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="border border-slate-200 bg-white hover:shadow-lg transition-shadow rounded-xl p-6">
+        <div class="flex items-center gap-1 mb-3">
+          <i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i>
+        </div>
+        <p class="text-slate-700 mb-4 leading-relaxed">"Stroomstoring midden in de nacht, binnen 40 minuten stond de elektricien voor de deur. Top service!"</p>
+        <div class="border-t border-slate-100 pt-4">
+          <p class="text-sm brand font-medium mb-1">Elektricien</p>
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-brand rounded-full flex items-center justify-center text-white font-bold text-sm">S</div>
+            <span class="font-medium text-slate-900">Sofie V. — Antwerpen</span>
+          </div>
+        </div>
+      </div>
+      <div class="border border-slate-200 bg-white hover:shadow-lg transition-shadow rounded-xl p-6">
+        <div class="flex items-center gap-1 mb-3">
+          <i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i>
+        </div>
+        <p class="text-slate-700 mb-4 leading-relaxed">"Waterleiding gebarsten op zondag. Snel geholpen, eerlijke vaste prijs, geen verrassingen."</p>
+        <div class="border-t border-slate-100 pt-4">
+          <p class="text-sm brand font-medium mb-1">Loodgieter</p>
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-brand rounded-full flex items-center justify-center text-white font-bold text-sm">J</div>
+            <span class="font-medium text-slate-900">Jean-Marc D. — Luik</span>
+          </div>
+        </div>
+      </div>
+      <div class="border border-slate-200 bg-white hover:shadow-lg transition-shadow rounded-xl p-6">
+        <div class="flex items-center gap-1 mb-3">
+          <i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-regular fa-star text-slate-200"></i>
+        </div>
+        <p class="text-slate-700 mb-4 leading-relaxed">"Boiler defect midden in de winter, zelfde dag opgelost. Echt een aanrader."</p>
+        <div class="border-t border-slate-100 pt-4">
+          <p class="text-sm brand font-medium mb-1">Loodgieter</p>
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-brand rounded-full flex items-center justify-center text-white font-bold text-sm">K</div>
+            <span class="font-medium text-slate-900">Karen L. — Gent</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-12 text-center">
+      <p class="text-slate-600 mb-4">Ook een ervaring gehad met SOSPro?</p>
+      <button class="border border-brand brand hover:bg-brand hover:text-white px-5 py-2.5 rounded-md font-medium inline-flex items-center gap-2 transition-colors">
+        <i class="fa-solid fa-star"></i> Schrijf een review
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-20 px-4 sm:px-6 lg:px-8 bg-brand">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="font-bold text-3xl sm:text-4xl text-white mb-6">Direct hulp nodig in België?</h2>
+    <p class="text-white/90 text-lg mb-8">Bel ons 24/7 voor spoedklussen of boek online</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="tel:+3238084747" class="inline-flex items-center justify-center gap-2 bg-white text-[#FF4500] px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-100 transition-colors">
+        <i class="fa-solid fa-phone"></i> 03 808 47 47
+      </a>
+      <button class="inline-flex items-center justify-center gap-2 bg-[#1A1A1A] text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-800 transition-colors border-2 border-white/30">
+        <i class="fa-solid fa-headset"></i> Gratis bellen via internet
+      </button>
+      <button class="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors">
+        Direct boeken
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-slate-900">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8 mb-8 md:mb-12">
+      <div class="col-span-2 md:col-span-1 mb-4 md:mb-0">
+        <div class="flex items-center gap-2 mb-3 md:mb-4">
+          <div class="w-8 h-8 md:w-10 md:h-10 bg-brand rounded-md flex items-center justify-center">
+            <i class="fa-solid fa-bolt text-white"></i>
+          </div>
+          <span class="font-bold text-lg md:text-xl text-white">SOSPro<span class="brand">.be</span></span>
+        </div>
+        <p class="text-slate-400 text-xs md:text-sm">24/7 betrouwbare spoedelektricien &amp; spoedloodgieter in heel België.</p>
+        <div class="mt-3 md:mt-4">
+          <a href="tel:+3238084747" class="text-slate-400 text-xs md:text-sm hover:text-white block">03 808 47 47 (24/7)</a>
+          <a href="mailto:info@sospro.be" class="text-slate-400 text-xs md:text-sm hover:text-white">info@sospro.be</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-bold text-white mb-3 md:mb-4 text-sm md:text-base">Zakelijk</h4>
+        <ul class="space-y-1.5 md:space-y-2 text-slate-400 text-xs md:text-sm">
+          <li><a href="#" class="hover:text-white">VME klusservice</a></li>
+          <li><a href="#" class="hover:text-white">Horeca klusservice</a></li>
+          <li><a href="#" class="hover:text-white">Kantoor klusservice</a></li>
+          <li><a href="#" class="hover:text-white">Winkel klusservice</a></li>
+          <li><a href="#" class="hover:text-white">Partner worden?</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-white mb-3 md:mb-4 text-sm md:text-base">Vakman info</h4>
+        <ul class="space-y-1.5 md:space-y-2 text-slate-400 text-xs md:text-sm">
+          <li><a href="#" class="hover:text-white">Word vakman</a></li>
+          <li><a href="#" class="hover:text-white">Vakman app</a></li>
+          <li><a href="#" class="hover:text-white">Vakman voorwaarden</a></li>
+          <li><a href="#" class="hover:text-white">Veelgestelde vragen</a></li>
+          <li><a href="#" class="hover:text-white">Inloggen</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-white mb-3 md:mb-4 text-sm md:text-base">SOSPro info</h4>
+        <ul class="space-y-1.5 md:space-y-2 text-slate-400 text-xs md:text-sm">
+          <li><a href="#" class="hover:text-white">Over ons</a></li>
+          <li><a href="#" class="hover:text-white">Garantie</a></li>
+          <li><a href="#" class="hover:text-white">Prijsgidsen</a></li>
+          <li><a href="#" class="hover:text-white">Premium lidmaatschap</a></li>
+          <li><a href="#" class="hover:text-white">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-white mb-3 md:mb-4 text-sm md:text-base">Contact &amp; Overig</h4>
+        <ul class="space-y-1.5 md:space-y-2 text-slate-400 text-xs md:text-sm">
+          <li><a href="tel:+3238084747" class="hover:text-white">Bel 03 808 47 47</a></li>
+          <li><a href="mailto:info@sospro.be" class="hover:text-white">info@sospro.be</a></li>
+          <li><a href="#" class="hover:text-white">Vacatures</a></li>
+        </ul>
+        <h4 class="font-bold text-white mt-4 md:mt-6 mb-3 md:mb-4 text-sm md:text-base">Diensten</h4>
+        <ul class="space-y-1.5 md:space-y-2 text-slate-400 text-xs md:text-sm">
+          <li><a href="#" class="hover:text-white">Elektricien</a></li>
+          <li><a href="#" class="hover:text-white">Loodgieter</a></li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="border-t border-slate-800 pt-6 md:pt-8 flex flex-col md:flex-row justify-between items-center gap-3 md:gap-4">
+      <div class="text-center md:text-left">
+        <p class="text-slate-500 text-xs md:text-sm">© 2026 SOSPro.be. Alle rechten voorbehouden.</p>
+        <p class="text-slate-500 text-xs mt-1">BTW: BE0000.000.000</p>
+      </div>
+      <div class="flex flex-wrap justify-center gap-4 md:gap-6 text-slate-400 text-xs md:text-sm">
+        <a href="#" class="hover:text-white">Privacybeleid</a>
+        <a href="#" class="hover:text-white">Algemene voorwaarden</a>
+        <a href="#" class="hover:text-white">Cookiebeleid</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
